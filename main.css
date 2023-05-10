@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+input,
+textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+header{
+    padding: 16px 0;
+    background-color: #182C61;
+    color: #ecf0f1;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li {
+    display: inline;
+    margin-left:  16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header h1:hover{
+    transition: 0.2s;
+    color: orange;
+    cursor: pointer;
+}
+
+header nav li a:hover{
+    transition: 0.2s;
+    font-size: 22px;
+    color: orange;
+}
+
+/* SECTION SOBRE A LOJA*/
+
+section {
+    padding: 24px 0;
+    color: #182C61;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+.brands-list li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+/* */section h2 { 
+    margin-bottom: 26px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front{
+    margin-right: 32px;
+}
+
+/* SECTION CONTATO */
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+textarea:focus,
+input:focus{
+    outline-color: #182C61 ;
+}
+
+section h3 {
+    margin-bottom: 26px;
+}
+
+form button {
+    background-color: #182C61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+    padding: 16px;
+}
+
+form button:hover{
+    transition: 0.2s;
+    background-color: orange;
+}
+
+footer {
+    background-color: #182C61;
+    color: #ecf0f1;
+    padding: 16px 0;
+    text-align: center;
+}
